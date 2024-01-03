@@ -16,7 +16,7 @@
         <artifactId>spring-boot-starter-data-jpa</artifactId>
         <version>2.6.4</version>
     </dependency>
-    <!-- Agrega esta dependencia en la sección de dependencies de tu archivo pom.xml -->
+    
 	<dependency>
     	<groupId>org.springframework.boot</groupId>
    		 <artifactId>spring-boot-starter-security</artifactId>
@@ -35,10 +35,10 @@
         	<plugin>
            	 	<groupId>org.apache.maven.plugins</groupId>
             	<artifactId>maven-compiler-plugin</artifactId>
-            	<version>3.8.1</version> <!-- Puedes ajustar la versión si es necesario -->
+            	<version>3.8.1</version>
             	<configuration>
-                	<source>1.8</source> <!-- Actualiza a la versión de Java que estás utilizando -->
-                	<target>1.8</target> <!-- Actualiza a la versión de Java que estás utilizando -->
+                	<source>1.8</source>
+                	<target>1.8</target> 
             	</configuration>
         	</plugin>
     	</plugins>
